@@ -8,7 +8,7 @@ In this article I will demonstrate how create a python card renderer that: load 
 ## The idea
 Let’s say you had to send sales information daily to a clint, and you wanted a way to show that with a bit more flair than a excel dashboard, then you have the idea to send some analytical cards using messenger or whatsapp. The concept and the design I developed using [sketch](https://www.sketchapp.com), a vectorized design toolkit, the follwoing picture shows this idea as a business card. The variables (headerline, subline, bolderline, balanceline) will be dynamically rendered using python, let's go to code.
 
-<img src="rendered/sketch_idea.png" alt="sketch concept" width="50%"/>
+<img src="docs/sketch_idea.png" alt="sketch concept" width="50%"/>
 
 ## Python Imaging Library
 For this project I will use pillow, a python image manipulation library, and it can be installed with pip. And I will use the flask server to create the API.
